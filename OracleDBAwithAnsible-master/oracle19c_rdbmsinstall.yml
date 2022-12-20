@@ -1,0 +1,6 @@
+###- hosts: dbservers
+- hosts: oramzr1
+  user: root
+  
+  roles:
+   - dbsoftware19c_install
